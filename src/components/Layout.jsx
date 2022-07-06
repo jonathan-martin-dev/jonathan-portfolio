@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Hero from "./Hero"
+import AboutMe from "./AboutMe"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -26,6 +27,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Hero />
+      <AboutMe />
       <div
         style={{
           margin: `0 auto`,
