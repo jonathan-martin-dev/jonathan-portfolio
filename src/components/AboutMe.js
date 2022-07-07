@@ -2,7 +2,7 @@ import React from "react"
 
 const AboutMe = () => {
   return (
-    <div className="bg-gray-100 mx-autogrid grid-flow-row">
+    <div className="bg-gray-100 mx-autogrid grid-flow-row" id="about">
       <div className="container p-20 mx-auto">
         <h2 className="text-4xl tracking-tight text-gray-900 sm:text-5xl md:text-6xl text-center">
           About Me

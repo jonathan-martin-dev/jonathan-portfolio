@@ -4,10 +4,12 @@ import { Fragment } from "react"
 import { Popover, Transition } from "@headlessui/react"
 import { MenuIcon, XIcon } from "@heroicons/react/outline"
 import { StaticImage } from "gatsby-plugin-image"
+import scrollTo from "gatsby-plugin-smoothscroll"
+import { Link } from "gatsby"
 
 const Hero = () => {
   const navigation = [
-    { name: "About Me", href: "#" },
+    { name: "About Me", href: "#about" },
     { name: "Work", href: "#" },
     { name: "Resume", href: "#" },
   ]
@@ -37,9 +39,9 @@ const Hero = () => {
                     <a href="#">
                       <span className="sr-only">Workflow</span>
                       <StaticImage
-                        className="h-8 w-auto sm:h-10"
-                        src="../images/workflow-mark-indigo-600.svg"
-                        placeholder="none"
+                        className="w-15 h-auto"
+                        src="../images/jonathan-logo-sm.jpg"
+                        placeholder="tracedSVG"
                       />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
@@ -52,13 +54,14 @@ const Hero = () => {
                 </div>
                 <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                   {navigation.map(item => (
-                    <a
+                    <Link
+                      onClick={() => scrollTo(item.href)}
                       key={item.name}
-                      href={item.href}
+                      to={item.href}
                       className="font-medium text-gray-500 hover:text-gray-900"
                     >
                       {item.name}
-                    </a>
+                    </Link>
                   ))}
                 </div>
               </nav>
@@ -80,10 +83,10 @@ const Hero = () => {
                 <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                   <div className="px-5 pt-4 flex items-center justify-between">
                     <div>
-                      <img
-                        className="h-8 w-auto"
-                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                        alt=""
+                      <StaticImage
+                        className="w-15 h-auto"
+                        src="../images/jonathan-logo-sm.jpg"
+                        placeholder="none"
                       />
                     </div>
                     <div className="-mr-2">
@@ -95,13 +98,14 @@ const Hero = () => {
                   </div>
                   <div className="px-2 pt-2 pb-3 space-y-1">
                     {navigation.map(item => (
-                      <a
+                      <Link
+                        onClick={() => scrollTo(item.href)}
                         key={item.name}
-                        href={item.href}
+                        to={item.href}
                         className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>
@@ -137,10 +141,10 @@ const Hero = () => {
       </div>
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 block">
         <StaticImage
-          className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="../images/jon-martinez.jpg"
+          className="h-56 w-full object-contain sm:h-72 md:h-96 lg:w-full lg:h-full"
+          src="../images/jonathan-martinez-headshot.jpg"
           alt="Profile Picture"
-          placeholder="none"
+          placeholder="tracedSVG"
         />
       </div>
     </div>
