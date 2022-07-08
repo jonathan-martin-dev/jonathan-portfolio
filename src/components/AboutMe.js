@@ -1,11 +1,10 @@
 import React from "react"
 import { TiSocialGithub, TiSocialLinkedin } from "react-icons/ti"
 import { AiOutlineMail } from "react-icons/ai"
-import { IconContext } from "react-icons/lib"
 
 const AboutMe = () => {
   return (
-    <div className="bg-gray-100 mx-autogrid grid-flow-row" id="about">
+    <div className="bg-gray-100 grid grid-flow-row" id="about">
       <div className="container p-20 mx-auto">
         <h2 className="text-4xl tracking-tight text-gray-900 sm:text-5xl md:text-6xl text-center">
           About Me
