@@ -1,6 +1,8 @@
 import React from "react"
 import { TiSocialGithub, TiSocialLinkedin } from "react-icons/ti"
 import { AiOutlineMail } from "react-icons/ai"
+import { IconContext } from "react-icons/lib"
+
 const AboutMe = () => {
   return (
     <div className="bg-gray-100 mx-autogrid grid-flow-row" id="about">
@@ -22,14 +24,35 @@ const AboutMe = () => {
           Gatby.js, jQuery, Liquid, HTML, and CSS.
         </p>
         <div className="flex flex-row space-x-6 justify-center">
-          <div>
-            <TiSocialGithub size={60} />
+          <div className="react-icons">
+            <a
+              href="https://github.com/jonathan-martin-dev"
+              title="Github"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <TiSocialGithub size={60} />
+            </a>
           </div>
-          <div>
-            <TiSocialLinkedin size={60} />
+          <div className="react-icons">
+            <a
+              href="https://www.linkedin.com/in/jonathanrmartinez/"
+              title="LinkedIn"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <TiSocialLinkedin size={60} />
+            </a>
           </div>
-          <div>
-            <AiOutlineMail size={60} />
+          <div className="react-icons">
+            <a
+              href="mailto:jonathanmdev@gmail.com"
+              title="Email"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <AiOutlineMail size={60} />
+            </a>
           </div>
         </div>
       </div>
