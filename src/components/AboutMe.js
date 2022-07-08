@@ -1,5 +1,6 @@
 import React from "react"
-
+import { TiSocialGithub, TiSocialLinkedin } from "react-icons/ti"
+import { AiOutlineMail } from "react-icons/ai"
 const AboutMe = () => {
   return (
     <div className="bg-gray-100 mx-autogrid grid-flow-row" id="about">
@@ -20,6 +21,17 @@ const AboutMe = () => {
           I have experience building projects in JavaScript(ES6+), React.js,
           Gatby.js, jQuery, Liquid, HTML, and CSS.
         </p>
+        <div className="flex flex-row space-x-6 justify-center">
+          <div>
+            <TiSocialGithub size={60} />
+          </div>
+          <div>
+            <TiSocialLinkedin size={60} />
+          </div>
+          <div>
+            <AiOutlineMail size={60} />
+          </div>
+        </div>
       </div>
     </div>
   )

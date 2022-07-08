@@ -4,14 +4,13 @@ import { Fragment } from "react"
 import { Popover, Transition } from "@headlessui/react"
 import { MenuIcon, XIcon } from "@heroicons/react/outline"
 import { StaticImage } from "gatsby-plugin-image"
-import scrollTo from "gatsby-plugin-smoothscroll"
-import { Link } from "gatsby"
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 const Hero = () => {
   const navigation = [
     { name: "About Me", href: "#about" },
-    { name: "Work", href: "#" },
-    { name: "Resume", href: "#" },
+    { name: "Work", href: "#work-history" },
+    { name: "Technologies", href: "#technologies" },
   ]
 
   return (
@@ -42,6 +41,7 @@ const Hero = () => {
                         className="w-15 h-auto"
                         src="../images/jonathan-logo-sm.jpg"
                         placeholder="tracedSVG"
+                        quality={100}
                       />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
@@ -54,14 +54,14 @@ const Hero = () => {
                 </div>
                 <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                   {navigation.map(item => (
-                    <Link
-                      onClick={() => scrollTo(item.href)}
+                    <AnchorLink
                       key={item.name}
-                      to={item.href}
+                      title={item.name}
+                      to={`/${item.href}`}
                       className="font-medium text-gray-500 hover:text-gray-900"
                     >
                       {item.name}
-                    </Link>
+                    </AnchorLink>
                   ))}
                 </div>
               </nav>
@@ -87,6 +87,7 @@ const Hero = () => {
                         className="w-15 h-auto"
                         src="../images/jonathan-logo-sm.jpg"
                         placeholder="none"
+                        quality={100}
                       />
                     </div>
                     <div className="-mr-2">
@@ -98,14 +99,14 @@ const Hero = () => {
                   </div>
                   <div className="px-2 pt-2 pb-3 space-y-1">
                     {navigation.map(item => (
-                      <Link
-                        onClick={() => scrollTo(item.href)}
+                      <AnchorLink
                         key={item.name}
-                        to={item.href}
-                        className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                        title={item.name}
+                        to={`/${item.href}`}
+                        className="font-medium text-gray-500 hover:text-gray-900"
                       >
                         {item.name}
-                      </Link>
+                      </AnchorLink>
                     ))}
                   </div>
                 </div>
@@ -145,6 +146,7 @@ const Hero = () => {
           src="../images/jonathan-martinez-headshot.jpg"
           alt="Profile Picture"
           placeholder="tracedSVG"
+          quality={100}
         />
       </div>
     </div>
