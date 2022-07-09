@@ -20,7 +20,7 @@ const AboutMe = () => {
         </p>
         <p>
           I have experience building projects in JavaScript(ES6+), React.js,
-          Gatby.js, jQuery, Liquid, HTML, and CSS.
+          Gatby.js, Shopify, jQuery, Liquid, HTML, and CSS.
         </p>
         <div className="flex flex-row space-x-6 justify-center">
           <div className="react-icons">

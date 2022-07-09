@@ -596,6 +596,7 @@ pre tt:after {
   }
 }
 
+/* Custom Styles */
 .react-icons {
   transition-duration: 0.5s;
   vertical-align: middle;
@@ -603,4 +604,11 @@ pre tt:after {
 
 .react-icons:hover {
   color: #ef4444;
+}
+
+@media (min-width: 320px) {
+  .deck {
+    display: grid;
+    gap: 40px;
+  }
 }
