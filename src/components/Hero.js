@@ -10,7 +10,7 @@ const Hero = () => {
   const navigation = [
     { name: "About Me", href: "#about" },
     { name: "Work", href: "#work-history" },
-    { name: "Technologies", href: "#technologies" },
+    { name: "Technical Skills", href: "#technical-skills" },
   ]
 
   return (
@@ -39,11 +39,9 @@ const Hero = () => {
                       <span className="sr-only">Workflow</span>
                       <StaticImage
                         className="logo"
-                        src="../images/jm-logo-sm.png"
+                        src="../images/jonathan-logo-sm.jpg"
                         placeholder="tracedSVG"
                         quality={100}
-                        width={40}
-                        height={81}
                       />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
@@ -87,11 +85,9 @@ const Hero = () => {
                     <div>
                       <StaticImage
                         className="logo"
-                        src="../images/jm-logo-small.png"
+                        src="../images/jonathan-logo-sm.jpg"
                         placeholder="tracedSVG"
                         quality={100}
-                        width={40}
-                        height={81}
                       />
                     </div>
                     <div className="-mr-2">
@@ -127,12 +123,14 @@ const Hero = () => {
                 </span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                I'm Jonathan Martinez, a Front-End Engineer based in the Greater
-                Los Angeles area.
+                Hi! I'm Jonathan Martinez, a Front-End Engineer based in the
+                Greater Los Angeles area.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
+                    title="Jonathan Martinez Resume"
+                    rel="norefferer nofollow"
                     href="https://drive.google.com/file/d/1am_iWizbrGmdD4qUPIctnypgRH4m4eNA/view?usp=sharing"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-500 hover:bg-red-700 md:py-4 md:text-lg md:px-10"
                   >

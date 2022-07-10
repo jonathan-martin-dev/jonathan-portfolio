@@ -11,8 +11,10 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Hero from "./Hero"
 import AboutMe from "./AboutMe"
-import "./layout.css"
 import WorkHistory from "./WorkHistory"
+import Technologies from "./Technologies"
+
+import "./layout.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -30,6 +32,7 @@ const Layout = ({ children }) => {
       <Hero />
       <AboutMe />
       <WorkHistory />
+      <Technologies />
       <div
         style={{
           margin: `0 auto`,
