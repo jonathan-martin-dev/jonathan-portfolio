@@ -606,6 +606,21 @@ pre tt:after {
   color: #ef4444;
 }
 
+@media (max-width: 525px) {
+  .about-me {
+    padding: 2rem;
+  }
+
+  .title {
+    padding: 0 2rem 2rem 2rem;
+  }
+
+  .group-1,
+  .group-2 {
+    padding-bottom: 1rem;
+  }
+}
+
 @media (min-width: 320px) {
   .deck {
     display: grid;
@@ -615,7 +630,5 @@ pre tt:after {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .logo {
-    width: 30px;
-    height: 61px;
   }
 }

@@ -97,7 +97,7 @@ const Hero = () => {
                       </Popover.Button>
                     </div>
                   </div>
-                  <div className="px-2 pt-2 pb-3 space-y-1">
+                  <div className="px-2 pt-3 pb-3 space-y-2 space-x-5">
                     {navigation.map(item => (
                       <AnchorLink
                         key={item.name}

@@ -12,17 +12,17 @@ const WorkHistory = () => {
         </div>
       </div>
       <div className="denmat grid grid-flow-row container mx-auto">
-        <div className="title p-20 pt-0 pb-0">
+        <div className="title pt-0 pb-0 p-20">
           <h3 className="text-4xl text-center lg:text-left pt-5">
             DenMat Holdings, LLC
           </h3>
           <p>
-            Den-Mat Holdings, LLC, has been the leader of dental prodcuts sold
+            Den-Mat Holdings, LLC, has been the leader of dental products sold
             directly to dental professionals for over 40 years. At DenMat I was
             responsible for wireframing and developing the UI of DenMat.com,
             working with marketing to create custom landing pages,
-            OralProcare.com, and DDSLocator.com, and the from-the-ground up
-            construction of Lumineers.com and SnapOnSmile.com. I worked closely
+            OralProcare.com, and the from-the-ground up construction of
+            Lumineers.com, SnapOnSmile.com, and DDSLocator.com. I worked closely
             with the design team, management, and product managers within the
             marketing department to deliver on their needs.
           </p>
@@ -51,7 +51,7 @@ const WorkHistory = () => {
               <div className="bg-white dark:bg-gray-800 w-full p-4">
                 <p className="text-red-500 text-md font-bold">DenMat.com</p>
                 <p>
-                  DenMat.com is an E-Commmerce site built on the Magento
+                  DenMat.com is an E-Commerce site built on the Magento
                   platform. Working with executives and management, we built
                   this website in place of our original E-commerce store and saw
                   an increase of B2B sales by 40%.
@@ -89,7 +89,7 @@ const WorkHistory = () => {
                   OralProCare.com
                 </p>
                 <p>
-                  OralProCare.com is an E-Commmerce site built on the Magento
+                  OralProCare.com is an E-Commerce site built on the Magento
                   platform. As a result of the success of DenMat.com,
                   OralProCare.com was built as a D2C solution for the company's
                   power toothbrush line, hygiene and whitening products.
@@ -261,8 +261,8 @@ const WorkHistory = () => {
                   GlidewellDirect.com
                 </p>
                 <p>
-                  GlidewellDirect.com is an E-Commmerce site built on the
-                  Shopify platform. Glidewell Direct is a B2B website that sells
+                  GlidewellDirect.com is an E-Commerce site built on the Shopify
+                  platform. Glidewell Direct is a B2B website that sells
                   directly to dentists. The products range from dental implants
                   to continued education courses for dentists.
                 </p>
