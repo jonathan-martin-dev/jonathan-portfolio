@@ -13,7 +13,7 @@ import Hero from "./Hero"
 import AboutMe from "./AboutMe"
 import WorkHistory from "./WorkHistory"
 import Technologies from "./Technologies"
-
+import Footer from "./Footer"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -33,7 +33,8 @@ const Layout = ({ children }) => {
       <AboutMe />
       <WorkHistory />
       <Technologies />
-      <div
+      <Footer />
+      {/* <div
         style={{
           margin: `0 auto`,
           maxWidth: 960,
@@ -50,7 +51,7 @@ const Layout = ({ children }) => {
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </footer>
-      </div>
+      </div> */}
     </>
   )
 }
