@@ -135,7 +135,7 @@ const WorkHistory = () => {
                 <div className="flex items-center mt-4">
                   <div className="flex flex-row justify-between text-sm">
                     <p className="font-bold">
-                      Technologies: HTML, SCSS, JavaScript, Gatsby.js, React.js,
+                      Technologies: HTML, Sass, JavaScript, Gatsby.js, React.js,
                       Bootstrap 5
                     </p>
                   </div>
@@ -175,7 +175,7 @@ const WorkHistory = () => {
                 <div className="flex items-center mt-4">
                   <div className="flex flex-row justify-between text-sm">
                     <p className="font-bold">
-                      Technologies: HTML, SCSS, JavaScript, Gatsby.js, React.js,
+                      Technologies: HTML, Sass, JavaScript, Gatsby.js, React.js,
                       Bootstrap 5
                     </p>
                   </div>
@@ -212,7 +212,7 @@ const WorkHistory = () => {
                 <div className="flex items-center mt-4">
                   <div className="flex flex-row justify-between text-sm">
                     <p className="font-bold">
-                      Technologies: HTML, SCSS, JavaScript, Gatsby.js, React.js,
+                      Technologies: HTML, Sass, JavaScript, Gatsby.js, React.js,
                       Bootstrap 5
                     </p>
                   </div>
@@ -272,7 +272,7 @@ const WorkHistory = () => {
                 <div className="flex items-center mt-4">
                   <div className="flex flex-row justify-between text-sm">
                     <p className="font-bold">
-                      Technologies: HTML, SCSS, JavaScript, jQuery, Shopify,
+                      Technologies: HTML, Sass, JavaScript, jQuery, Shopify,
                       Liquid, Bootstrap 3, React.js
                     </p>
                   </div>
