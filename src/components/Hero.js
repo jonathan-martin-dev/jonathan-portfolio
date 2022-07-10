@@ -35,13 +35,15 @@ const Hero = () => {
               >
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
-                    <a href="#">
+                    <a href="./">
                       <span className="sr-only">Workflow</span>
                       <StaticImage
-                        className="w-15 h-auto"
-                        src="../images/jonathan-logo-sm.jpg"
+                        className="logo"
+                        src="../images/jm-logo-sm.png"
                         placeholder="tracedSVG"
                         quality={100}
+                        width={40}
+                        height={81}
                       />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
@@ -84,10 +86,12 @@ const Hero = () => {
                   <div className="px-5 pt-4 flex items-center justify-between">
                     <div>
                       <StaticImage
-                        className="w-15 h-auto"
-                        src="../images/jonathan-logo-sm.jpg"
-                        placeholder="none"
+                        className="logo"
+                        src="../images/jm-logo-small.png"
+                        placeholder="tracedSVG"
                         quality={100}
+                        width={40}
+                        height={81}
                       />
                     </div>
                     <div className="-mr-2">
@@ -129,7 +133,7 @@ const Hero = () => {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="#"
+                    href="../assets/Jonathan-Martinez-Resume.pdf"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-500 hover:bg-red-700 md:py-4 md:text-lg md:px-10"
                   >
                     Take A Resume

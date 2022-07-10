@@ -21,10 +21,10 @@ const WorkHistory = () => {
             directly to dental professionals for over 40 years. At DenMat I was
             responsible for wireframing and developing the UI of DenMat.com,
             working with marketing to create custom landing pages,
-            OralProcare.com, and FindaDentist.com, and the from-the-ground up
-            construction of Lumineers.com and Snap-On-Smile.com. I worked
-            closely with the design team, management, and product managers
-            within the marketing department to deliver on their needs.
+            OralProcare.com, and DDSLocator.com, and the from-the-ground up
+            construction of Lumineers.com and SnapOnSmile.com. I worked closely
+            with the design team, management, and product managers within the
+            marketing department to deliver on their needs.
           </p>
         </div>
         <div>
@@ -35,14 +35,15 @@ const WorkHistory = () => {
 
         <div className="grid lg:grid-cols-3 md:grid-cols-1 sm:gap-y-8 md:gap-y-8 deck">
           {/* DenMat.com */}
-          <div class="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer m-auto">
+          <div className="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer m-auto">
             <a
+              title="DenMat Website"
               href="https://www.denmat.com"
-              class="w-full block h-full"
+              className="w-full block h-full"
               rel="norefferer nofollow"
             >
               <StaticImage
-                alt="blog photo"
+                alt="DenMat Website"
                 src="../images/denmat-capture.png"
                 className="max-h-40 w-full object-cover"
                 placeholder="tracedSVG"
@@ -56,14 +57,7 @@ const WorkHistory = () => {
                   an increase of B2B sales by 40%.
                 </p>
                 <p>
-                  <a
-                    href="https://www.denmat.com"
-                    rel="norefferer nofollow"
-                    target="_blank"
-                    className="text-red-500"
-                  >
-                    Visit Site
-                  </a>
+                  <p className="text-red-500">Visit Site</p>
                 </p>
                 <div className="flex items-center mt-4">
                   <div className="flex flex-row justify-between text-sm">
@@ -77,14 +71,15 @@ const WorkHistory = () => {
             </a>
           </div>
           {/* OralProcare.com */}
-          <div class="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer m-auto">
+          <div className="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer m-auto">
             <a
+              title="Oral ProCare Website"
               href="https://www.oralprocare.com"
-              class="w-full block h-full"
+              className="w-full block h-full"
               rel="norefferer nofollow"
             >
               <StaticImage
-                alt="blog photo"
+                alt="Oral ProCare Website"
                 src="../images/oralprocare-capture.png"
                 className="max-h-40 w-full object-cover"
                 placeholder="tracedSVG"
@@ -100,14 +95,7 @@ const WorkHistory = () => {
                   power toothbrush line, hygiene and whitening products.
                 </p>
                 <p>
-                  <a
-                    href="https://www.oralprocare.com"
-                    rel="norefferer nofollow"
-                    target="_blank"
-                    className="text-red-500"
-                  >
-                    Visit Site
-                  </a>
+                  <p className="text-red-500">Visit Site</p>
                 </p>
                 <div className="flex items-center mt-4">
                   <div className="flex flex-row justify-between text-sm">
@@ -121,40 +109,171 @@ const WorkHistory = () => {
             </a>
           </div>
           {/* Lumineers.com */}
-          <div class="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer m-auto">
-            <a href="#" class="w-full block h-full">
+          <div className="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer m-auto">
+            <a
+              href="https://www.lumineers.com"
+              title="Lumineers Website"
+              rel="norefferer nofollow"
+              className="w-full block h-full"
+            >
               <StaticImage
-                alt="blog photo"
+                alt="Lumineers Website"
                 src="../images/lumineers-capture.png"
                 className="max-h-40 w-full object-cover"
                 placeholder="tracedSVG"
               />
               <div className="bg-white dark:bg-gray-800 w-full p-4">
                 <p className="text-red-500 text-md font-bold">Lumineers.com</p>
-                {/* <p className="text-gray-800 dark:text-white text-xl font-medium mb-2">
-                  Technologies: HTML, CSS, JavaScript, jQuery, Bootstrap 4,
-                  Magento
-                </p> */}
                 <p>
                   Lumineers.com is a marketing site built on the Gatsby.js
                   platform. This project replaced the legacy site and
-                  simultaneously acted as a portal to our Find A Dentist
-                  platform through Bullseye Locations. The site was tied to the
-                  Lumineers social channels.
+                  simultaneously acted as a portal to our DDS Locator platform
+                  through Bullseye Locations. The site was tied to the Lumineers
+                  social channels.
                 </p>
-                <a
-                  href="https://www.lumineers.com"
-                  rel="norefferer nofollow"
-                  target="_blank"
-                  className="text-red-500"
-                >
-                  Visit Site
-                </a>
+                <p className="text-red-500">Visit Site</p>
                 <div className="flex items-center mt-4">
                   <div className="flex flex-row justify-between text-sm">
                     <p className="font-bold">
                       Technologies: HTML, SCSS, JavaScript, Gatsby.js, React.js,
                       Bootstrap 5
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          {/* Snap-On-Smile.com */}
+          <div className="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer m-auto">
+            <a
+              title="Snap-On Smile Website"
+              href="https://www.snaponsmile.com/"
+              className="w-full block h-full"
+              rel="norefferer nofollow"
+            >
+              <StaticImage
+                alt="Snap-On Smile Website"
+                src="../images/snaponsmile-capture.png"
+                className="max-h-40 w-full object-cover"
+                placeholder="tracedSVG"
+              />
+              <div className="bg-white dark:bg-gray-800 w-full p-4">
+                <p className="text-red-500 text-md font-bold">
+                  SnapOnSmile.com
+                </p>
+                <p>
+                  SnapOnSmile.com is a marketing site built on the Gatsby.js
+                  platform. This project replaced the legacy site and
+                  simultaneously acted as a portal to our DDS Locator platform
+                  through Bullseye Locations. The site was tied to the Snap-On
+                  Smile social channels.
+                </p>
+                <p>
+                  <p className="text-red-500">Visit Site</p>
+                </p>
+                <div className="flex items-center mt-4">
+                  <div className="flex flex-row justify-between text-sm">
+                    <p className="font-bold">
+                      Technologies: HTML, SCSS, JavaScript, Gatsby.js, React.js,
+                      Bootstrap 5
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          {/* DDSLocator.com */}
+          <div className="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer m-auto">
+            <a
+              title="DDS Locator Website"
+              href="https://www.ddslocator.com"
+              className="w-full block h-full"
+              rel="norefferer nofollow"
+            >
+              <StaticImage
+                alt="DDS Locator Website"
+                src="../images/ddslocator-capture.png"
+                className="max-h-40 w-full object-cover"
+                placeholder="tracedSVG"
+              />
+              <div className="bg-white dark:bg-gray-800 w-full p-4">
+                <p className="text-red-500 text-md font-bold">DDSLocator.com</p>
+                <p>
+                  DDSLocator.com is a utility site built on the Gatsby.js
+                  platform. It allowed for patients to find a dentist and to let
+                  dentists know if they signed up for DDS Locator that they
+                  could get more leads. Hundreds of dentists have signed up for
+                  this program.
+                </p>
+                <p>
+                  <p className="text-red-500">Visit Site</p>
+                </p>
+                <div className="flex items-center mt-4">
+                  <div className="flex flex-row justify-between text-sm">
+                    <p className="font-bold">
+                      Technologies: HTML, SCSS, JavaScript, Gatsby.js, React.js,
+                      Bootstrap 5
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="denmat grid grid-flow-row container mx-auto">
+        <div className="title p-20 pt-0 pb-0">
+          <h3 className="text-4xl text-center lg:text-left pt-20">
+            Glidewell Dental
+          </h3>
+          <p>
+            Glidewell Dental is the world's largest Dental Laboratory and
+            producer of restorative services. Glidewell Dental has been in
+            business for over 50 years and is at the forefront of dental
+            technology. At Glidewell Dental I was a Junior Software Engineer on
+            the E-Commerce Team. I worked on GlidewellDirect.com in an
+            Agile/Scrum enviornment. I worked closely with the User Experience
+            Team to help deliver changes needed to the UI.
+          </p>
+        </div>
+        <div>
+          <h4 className="ml-15 text-3xl text-center underline underline-offset-2">
+            Projects
+          </h4>
+        </div>
+        <div className="grid lg:grid-cols-1 md:grid-cols-1 sm:gap-y-8 md:gap-y-8 deck">
+          <div className="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer m-auto">
+            <a
+              title="Glidewell Direct Website"
+              href="https://www.glidewelldirect.com/"
+              className="w-full block h-full"
+              rel="norefferer nofollow"
+            >
+              <StaticImage
+                alt="Glidewell Direct Website"
+                src="../images/glidewell-direct-capture.png"
+                className="max-h-40 w-full object-cover"
+                placeholder="tracedSVG"
+              />
+              <div className="bg-white dark:bg-gray-800 w-full p-4">
+                <p className="text-red-500 text-md font-bold">
+                  GlidewellDirect.com
+                </p>
+                <p>
+                  GlidewellDirect.com is an E-Commmerce site built on the
+                  Shopify platform. Glidewell Direct is a B2B website that sells
+                  directly to dentists. The products range from dental implants
+                  to continued education courses for dentists.
+                </p>
+                <p>
+                  <p className="text-red-500">Visit Site</p>
+                </p>
+                <div className="flex items-center mt-4">
+                  <div className="flex flex-row justify-between text-sm">
+                    <p className="font-bold">
+                      Technologies: HTML, SCSS, JavaScript, jQuery, Shopify,
+                      Liquid, Bootstrap 3, React.js
                     </p>
                   </div>
                 </div>
