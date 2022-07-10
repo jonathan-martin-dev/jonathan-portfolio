@@ -11,7 +11,7 @@ const AboutMe = () => {
         </h2>
         <p>
           My name is Jonathan Martinez and I am a Front-End Engineer with 3
-          years of experience. that is passionate about coding, coffee, and
+          years of experience. I am passionate about coding, coffee, and
           photography.
         </p>
         <p>
