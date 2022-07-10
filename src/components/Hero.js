@@ -133,7 +133,7 @@ const Hero = () => {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="../assets/Jonathan-Martinez-Resume.pdf"
+                    href="https://drive.google.com/file/d/1am_iWizbrGmdD4qUPIctnypgRH4m4eNA/view?usp=sharing"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-500 hover:bg-red-700 md:py-4 md:text-lg md:px-10"
                   >
                     Take A Resume
