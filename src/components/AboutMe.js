@@ -15,13 +15,12 @@ const AboutMe = () => {
           photography.
         </p>
         <p>
-          I have worked with e-commerce and marketing teams to help build and
-          create great customer experiences for people.
+          Using technologies like Shopify, Magento and Gatsby, I have built and
+          optimized numerous interactive marketing and E-Commerce sites.
         </p>
         <p>
-          I have experience building projects in languages like
-          JavaScript(ES6+), React.js, Gatby.js, Shopify, jQuery, Liquid, HTML,
-          and CSS.
+          I have experience building projects in JavaScript(ES6+), React.js,
+          GatsbyJS, jQuery, Liquid, Sass, HTML, and CSS.
         </p>
         <div className="flex flex-row space-x-6 justify-center">
           <div className="react-icons">

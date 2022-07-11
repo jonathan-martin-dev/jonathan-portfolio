@@ -20,7 +20,7 @@ const Technologies = () => {
               ></path>
             </svg>
             <p className="text-white font-bold text-center pt-5 text-2xl">
-              Gatsby.js
+              GatsbyJS
             </p>
           </div>
           <div className="mx-auto">

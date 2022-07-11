@@ -20,11 +20,11 @@ const WorkHistory = () => {
             Den-Mat Holdings, LLC, has been the leader of dental products sold
             directly to dental professionals for over 40 years. At DenMat I was
             responsible for wireframing and developing the UI of DenMat.com,
-            working with marketing to create custom landing pages,
-            OralProcare.com, and the from-the-ground up construction of
-            Lumineers.com, SnapOnSmile.com, and DDSLocator.com. I worked closely
-            with the design team, management, and product managers within the
-            marketing department to deliver on their needs.
+            working with marketing to create custom landing pages for various
+            products, OralProcare.com, and the from-the-ground up construction
+            of Lumineers.com, SnapOnSmile.com, and DDSLocator.com. I worked
+            closely with the design team, management, and product managers
+            within the marketing department to deliver on their needs.
           </p>
         </div>
         <div>
@@ -53,7 +53,7 @@ const WorkHistory = () => {
                 <p>
                   DenMat.com is an E-Commerce site built on the Magento
                   platform. Working with executives and management, we built
-                  this website in place of our original E-commerce store and saw
+                  this website in place of our original E-Commerce store and saw
                   an increase of B2B sales by 40%.
                 </p>
                 <p>
@@ -125,7 +125,7 @@ const WorkHistory = () => {
               <div className="bg-white dark:bg-gray-800 w-full p-4">
                 <p className="text-red-500 text-md font-bold">Lumineers.com</p>
                 <p>
-                  Lumineers.com is a marketing site built on the Gatsby.js
+                  Lumineers.com is a marketing site built on the GatsbyJS
                   platform. This project replaced the legacy site and
                   simultaneously acted as a portal to our DDS Locator platform
                   through Bullseye Locations. The site was tied to the Lumineers
@@ -135,7 +135,7 @@ const WorkHistory = () => {
                 <div className="flex items-center mt-4">
                   <div className="flex flex-row justify-between text-sm">
                     <p className="font-bold">
-                      Technologies: HTML, Sass, JavaScript, Gatsby.js, React.js,
+                      Technologies: HTML, Sass, JavaScript, GatsbyJS, React.js,
                       Bootstrap 5
                     </p>
                   </div>
@@ -163,7 +163,7 @@ const WorkHistory = () => {
                   SnapOnSmile.com
                 </p>
                 <p>
-                  SnapOnSmile.com is a marketing site built on the Gatsby.js
+                  SnapOnSmile.com is a marketing site built on the GatsbyJS
                   platform. This project replaced the legacy site and
                   simultaneously acted as a portal to our DDS Locator platform
                   through Bullseye Locations. The site was tied to the Snap-On
@@ -175,7 +175,7 @@ const WorkHistory = () => {
                 <div className="flex items-center mt-4">
                   <div className="flex flex-row justify-between text-sm">
                     <p className="font-bold">
-                      Technologies: HTML, Sass, JavaScript, Gatsby.js, React.js,
+                      Technologies: HTML, Sass, JavaScript, GatsbyJS, React.js,
                       Bootstrap 5
                     </p>
                   </div>
@@ -200,7 +200,7 @@ const WorkHistory = () => {
               <div className="bg-white dark:bg-gray-800 w-full p-4">
                 <p className="text-red-500 text-md font-bold">DDSLocator.com</p>
                 <p>
-                  DDSLocator.com is a utility site built on the Gatsby.js
+                  DDSLocator.com is a utility site built on the GatsbyJS
                   platform. It allowed for patients to find a dentist and to let
                   dentists know if they signed up for DDS Locator that they
                   could get more leads. Hundreds of dentists have signed up for
@@ -212,7 +212,7 @@ const WorkHistory = () => {
                 <div className="flex items-center mt-4">
                   <div className="flex flex-row justify-between text-sm">
                     <p className="font-bold">
-                      Technologies: HTML, Sass, JavaScript, Gatsby.js, React.js,
+                      Technologies: HTML, Sass, JavaScript, GatsbyJS, React.js,
                       Bootstrap 5
                     </p>
                   </div>
