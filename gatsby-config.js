@@ -3,7 +3,7 @@ module.exports = {
     title: `Jonathan Martinez Portfolio`,
     description: `Hi! I'm Jonathan Martinez, a Front-End Engineer based in the Greater Los Angeles area.`,
     author: `Jonathan Martinez`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://jonathanmartinez.io/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
