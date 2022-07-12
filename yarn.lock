@@ -5972,6 +5972,14 @@
     "lodash" "^4.17.21"
     "webpack-assets-manifest" "^5.0.6"
 
+"gatsby-plugin-google-gtag@^4.18.0":
+  "integrity" "sha512-oLIFmndlvmPyMlDR2z0NkTyTg05VLIi6vYlCUiqOaf1AOQKkmV9UxX0pwCDGuKxQPGIY3n8UkhkSqERIvQL2Dw=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-4.18.0.tgz"
+  "version" "4.18.0"
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    "minimatch" "^3.1.2"
+
 "gatsby-plugin-image@^2.3.0":
   "integrity" "sha512-oxG+oZ1kYboX/75jOxHZeV6Xzo5xHZ/8KUQpni58nI1+xaxZRFBthXg1SetSs8nWRsXR5Y+bq8FAf0R0iGjySg=="
   "resolved" "https://registry.npmjs.org/gatsby-plugin-image/-/gatsby-plugin-image-2.3.0.tgz"
