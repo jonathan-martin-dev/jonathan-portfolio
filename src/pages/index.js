@@ -5,7 +5,7 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Jonathan Martinez Portfolio" />
+    <Seo title="Jonathan Martinez Portfolio" lang="English" />
   </Layout>
 )
 
