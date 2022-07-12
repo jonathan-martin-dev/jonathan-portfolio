@@ -9,6 +9,22 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-smoothscroll`,
+    "gatsby-plugin-robots-txt",
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://jonathanmartinez.io/",
+        sitemap: "https://jonathanmartinez.io/sitemap.xml",
+        env: {
+          development: {
+            policy: [{ userAgent: "*", disallow: ["/"] }],
+          },
+          production: {
+            policy: [{ userAgent: "*", allow: "/" }],
+          },
+        },
+      },
+    },
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
@@ -34,7 +50,7 @@ module.exports = {
           // Avoids sending pageview hits from custom paths
           exclude: ["/preview/**", "/do-not-track/me/too/"],
           // Defaults to https://www.googletagmanager.com
-          origin: "https://www.jonathanmartinez.io/",
+          origin: "https://www.googletagmanager.com",
         },
       },
     },
