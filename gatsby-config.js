@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Jonathan Martinez Portfolio`,
+    title: `Jonathan Martinez // Front-End Engineer`,
     description: `Hi! I'm Jonathan Martinez, a Front-End Engineer based in the Greater Los Angeles area.`,
     author: `Jonathan Martinez`,
     siteUrl: `https://jonathanmartinez.io/`,
