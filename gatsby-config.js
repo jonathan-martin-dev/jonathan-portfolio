@@ -1,19 +1,21 @@
 module.exports = {
   siteMetadata: {
     title: `Jonathan Martinez // Front-End Engineer`,
+    titleTemplate: `%s · Front-End Engineer`,
     description: `Hi! I'm Jonathan Martinez, a Front-End Engineer based in the Greater Los Angeles area.`,
     author: `Jonathan Martinez`,
-    siteUrl: `https://jonathanmartinez.io/`,
+    url: `https://jonathanmartinez.io`,
+    image: `src/images/jonathan-logo.jpg`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-smoothscroll`,
-    "gatsby-plugin-robots-txt",
+    `gatsby-plugin-robots-txt`,
     {
-      resolve: "gatsby-plugin-robots-txt",
+      resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: "https://jonathanmartinez.io/",
+        host: `https://jonathanmartinez.io`,
         sitemap: "https://jonathanmartinez.io/sitemap.xml",
         env: {
           development: {
