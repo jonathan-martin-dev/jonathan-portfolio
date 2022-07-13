@@ -5,7 +5,14 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title={`Jonathan Martinez Portfolio`} htmlAttributes={`en`} />
+    <Seo
+      title="Jonathan Martinez // Front-End Engineer"
+      lang="en"
+      meta={{
+        name: `description`,
+        content: `Hi! I'm Jonathan Martinez, a Front-End Engineer based in the Greater Los Angeles area.`,
+      }}
+    />
   </Layout>
 )
 
