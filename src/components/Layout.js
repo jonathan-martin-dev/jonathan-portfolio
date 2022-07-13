@@ -7,9 +7,10 @@ import Technologies from "./Technologies"
 import Footer from "./Footer"
 import "./layout.css"
 
-const Layout = () => {
+const Layout = ({ children }) => {
   return (
     <>
+      {children}
       <Hero />
       <AboutMe />
       <WorkHistory />
