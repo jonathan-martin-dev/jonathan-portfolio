@@ -10,18 +10,24 @@ const AboutMe = () => {
           About Me
         </h2>
         <p>
-          My name is Jonathan Martinez and I am a Front-End Engineer with 3
-          years of experience. I am passionate about coding, coffee, and
-          photography.
+          My name is Jonathan Martinez and I am a Front-End Engineer with over 3
+          years of experience. I've worked on both E-Commerce and Marketing
+          teams to provide better buying experiences for customers. I have
+          delivered projects that have provided a growth in overall online sales
+          and in some cases, created new opportunities for the business.
         </p>
         <p>
-          Using technologies like Shopify, Magento and Gatsby, I have built and
-          optimized numerous interactive marketing and E-Commerce sites.
+          To me, the best work environments are collaborative ones. I love being
+          on teams where we can share ideas and learn from each other. I'm
+          passionate about learning new technologies and every single project I
+          have worked on has taught me something new. Each challenge I've faced
+          has created a new set of problem solving skills. I am constantly
+          growing in this field and it's why I love to code.
+          <span role="img" aria-label="dog">
+            💻
+          </span>
         </p>
-        <p>
-          I have experience building projects in JavaScript(ES6+), React.js,
-          GatsbyJS, jQuery, Liquid, Sass, HTML, and CSS.
-        </p>
+        <p></p>
         <div className="flex flex-row space-x-6 justify-center">
           <div className="react-icons">
             <a
