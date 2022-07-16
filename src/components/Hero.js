@@ -9,7 +9,7 @@ import { AnchorLink } from "gatsby-plugin-anchor-links"
 const Hero = () => {
   const navigation = [
     { name: "About Me", href: "#about" },
-    { name: "Work", href: "#work-history" },
+    { name: "Work History", href: "#work-history" },
     { name: "Technical Skills", href: "#technical-skills" },
   ]
 
