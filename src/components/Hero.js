@@ -122,16 +122,16 @@ const Hero = () => {
                   Front-End Engineer
                 </span>
               </h1>
-              <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              {/* <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Hi! I'm Jonathan Martinez, a Front-End Engineer based in the
                 Greater Los Angeles area with over 3 years of experience.
-              </p>
+              </p> */}
               {/* <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
                     title="Jonathan Martinez Resume"
                     rel="norefferer nofollow"
-                    href="https://drive.google.com/file/d/1am_iWizbrGmdD4qUPIctnypgRH4m4eNA/view?usp=sharing"
+                    href=""
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-500 hover:bg-red-700 md:py-4 md:text-lg md:px-10"
                   >
                     Take A Resume

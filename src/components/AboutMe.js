@@ -9,11 +9,12 @@ const AboutMe = () => {
           About Me
         </h2>
         <p>
-          My name is Jonathan Martinez and I am a Front-End Engineer with over 3
-          years of experience. I've worked on both E-Commerce and Marketing
-          teams to provide better buying experiences for customers. I have
-          delivered projects that have provided a growth in overall online sales
-          and in some cases, created new opportunities for the business.
+          Hi! I'm Jonathan Martinez, a Front-End Engineer based in the Greater
+          Los Angeles area with over 3 years of experience. I've worked on both
+          E-Commerce and Marketing teams to provide better buying experiences
+          for customers. I have delivered projects that have provided a growth
+          in overall online sales and in some cases, created new opportunities
+          for the business.
         </p>
         <p>
           To me, the best work environments are collaborative ones. I love being
