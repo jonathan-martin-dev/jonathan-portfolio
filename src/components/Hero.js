@@ -126,7 +126,7 @@ const Hero = () => {
                 Hi! I'm Jonathan Martinez, a Front-End Engineer based in the
                 Greater Los Angeles area with over 3 years of experience.
               </p>
-              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+              {/* <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
                     title="Jonathan Martinez Resume"
@@ -137,7 +137,7 @@ const Hero = () => {
                     Take A Resume
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </main>
         </div>

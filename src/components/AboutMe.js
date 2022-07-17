@@ -1,6 +1,5 @@
 import React from "react"
-import { TiSocialGithub, TiSocialLinkedin } from "react-icons/ti"
-import { AiOutlineMail } from "react-icons/ai"
+import Icons from "./Icons"
 
 const AboutMe = () => {
   return (
@@ -23,43 +22,11 @@ const AboutMe = () => {
           have worked on has taught me something new. Each challenge I've faced
           has created a new set of problem solving skills. I am constantly
           growing in this field and it's why I love to code.
-          <span role="img" aria-label="dog">
+          <span role="img" aria-label="Laptop">
             💻
           </span>
         </p>
-        <p></p>
-        <div className="flex flex-row space-x-6 justify-center">
-          <div className="react-icons">
-            <a
-              href="https://github.com/jonathan-martin-dev"
-              title="Github"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <TiSocialGithub size={60} />
-            </a>
-          </div>
-          <div className="react-icons">
-            <a
-              href="https://www.linkedin.com/in/jonathanrmartinez/"
-              title="LinkedIn"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <TiSocialLinkedin size={60} />
-            </a>
-          </div>
-          <div className="react-icons">
-            <a
-              href="mailto:jonathanmdev@gmail.com"
-              title="Email"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <AiOutlineMail size={60} />
-            </a>
-          </div>
-        </div>
+        <Icons />
       </div>
     </div>
   )
