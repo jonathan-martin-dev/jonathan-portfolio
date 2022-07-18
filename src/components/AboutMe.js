@@ -23,6 +23,9 @@ const AboutMe = () => {
           have worked on has taught me something new. Each challenge I've faced
           has created a new set of problem solving skills. I am constantly
           growing in this field and it's why I love to code.
+          <span role="img" aria-label="Heart">
+            ❤️
+          </span>
           <span role="img" aria-label="Coding">
             👨‍💻
           </span>
