@@ -6,13 +6,13 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline"
 import { StaticImage } from "gatsby-plugin-image"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 
-const Hero = () => {
-  const navigation = [
-    { name: "About Me", href: "#about" },
-    { name: "Work History", href: "#work-history" },
-    { name: "Technical Skills", href: "#technical-skills" },
-  ]
+const navigation = [
+  { name: "About Me", href: "#about" },
+  { name: "Work History", href: "#work-history" },
+  { name: "Technical Skills", href: "#technical-skills" },
+]
 
+const Hero = () => {
   return (
     <div className="relative bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto">
@@ -145,7 +145,7 @@ const Hero = () => {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 block">
         <StaticImage
           className="h-56 w-full object-contain sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="../images/jonathan-martinez-headshot.jpg"
+          src="../images/jonathan-martinez-headshot-t.jpg"
           alt="Profile Picture"
           placeholder="tracedSVG"
           quality={100}

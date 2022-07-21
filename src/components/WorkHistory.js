@@ -44,7 +44,7 @@ const WorkHistory = () => {
             >
               <StaticImage
                 alt="DenMat Website"
-                src="../images/denmat-capture.png"
+                src="../images/denmat-capture-t.png"
                 className="max-h-40 w-full object-cover"
                 placeholder="tracedSVG"
               />
@@ -80,7 +80,7 @@ const WorkHistory = () => {
             >
               <StaticImage
                 alt="Oral ProCare Website"
-                src="../images/oralprocare-capture.png"
+                src="../images/oralprocare-capture-t.png"
                 className="max-h-40 w-full object-cover"
                 placeholder="tracedSVG"
               />
@@ -118,7 +118,7 @@ const WorkHistory = () => {
             >
               <StaticImage
                 alt="Lumineers Website"
-                src="../images/lumineers-capture.png"
+                src="../images/lumineers-capture-t.png"
                 className="max-h-40 w-full object-cover"
                 placeholder="tracedSVG"
               />
@@ -154,7 +154,7 @@ const WorkHistory = () => {
             >
               <StaticImage
                 alt="Snap-On Smile Website"
-                src="../images/snaponsmile-capture.png"
+                src="../images/snaponsmile-capture-t.png"
                 className="max-h-40 w-full object-cover"
                 placeholder="tracedSVG"
               />
@@ -193,7 +193,7 @@ const WorkHistory = () => {
             >
               <StaticImage
                 alt="DDS Locator Website"
-                src="../images/ddslocator-capture.png"
+                src="../images/ddslocator-capture-t.png"
                 className="max-h-40 w-full object-cover"
                 placeholder="tracedSVG"
               />
@@ -252,7 +252,7 @@ const WorkHistory = () => {
             >
               <StaticImage
                 alt="Glidewell Direct Website"
-                src="../images/glidewell-direct-capture.png"
+                src="../images/glidewell-direct-capture-t.png"
                 className="max-h-40 w-full object-cover"
                 placeholder="tracedSVG"
               />
