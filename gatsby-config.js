@@ -10,7 +10,6 @@ module.exports = {
     `gatsby-plugin-postcss`,
     `gatsby-plugin-smoothscroll`,
     "gatsby-plugin-robots-txt",
-    "gatsby-plugin-netlify",
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
