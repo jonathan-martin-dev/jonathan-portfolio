@@ -7,32 +7,11 @@ const WorkHistory = () => {
       <div className="grid grid-flow-row" id="work-history">
         <div className="container p-20 pb-0 mx-auto">
           <h2 className="text-4xl tracking-tight text-gray-900 sm:text-5xl md:text-6xl text-center">
-            Work History
+            Work.
           </h2>
         </div>
       </div>
       <div className="denmat grid grid-flow-row container mx-auto">
-        <div className="title pt-0 pb-0 p-20">
-          <h3 className="text-4xl text-center lg:text-left pt-5">
-            DenMat Holdings, LLC
-          </h3>
-          <p>
-            Den-Mat Holdings, LLC, has been the leader of dental products sold
-            directly to dental professionals for over 40 years. At DenMat I was
-            responsible for wireframing and developing the UI of DenMat.com,
-            working with marketing to create custom landing pages for various
-            products, OralProcare.com, and the from-the-ground up construction
-            of Lumineers.com, SnapOnSmile.com, and DDSLocator.com. I worked
-            closely with the design team, management, and product managers
-            within the marketing department to deliver on their needs.
-          </p>
-        </div>
-        <div>
-          <h4 className="ml-15 text-3xl text-center underline underline-offset-2">
-            Projects
-          </h4>
-        </div>
-
         <div className="grid lg:grid-cols-3 md:grid-cols-1 sm:gap-y-8 md:gap-y-8 deck">
           {/* DenMat.com */}
           <div className="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer m-auto">
@@ -220,65 +199,44 @@ const WorkHistory = () => {
               </div>
             </a>
           </div>
-        </div>
-      </div>
-      <div className="denmat grid grid-flow-row container mx-auto">
-        <div className="title p-20 pt-0 pb-0">
-          <h3 className="text-4xl text-center lg:text-left pt-20">
-            Glidewell Dental
-          </h3>
-          <p>
-            Glidewell Dental is the world's largest Dental Laboratory and
-            producer of restorative services. Glidewell Dental has been in
-            business for over 50 years and is at the forefront of dental
-            technology. At Glidewell Dental I was a Junior Software Engineer on
-            the E-Commerce Team. I worked on GlidewellDirect.com in an
-            Agile/Scrum enviornment. I worked closely with the User Experience
-            Team to help deliver changes needed to the UI.
-          </p>
-        </div>
-        <div>
-          <h4 className="ml-15 text-3xl text-center underline underline-offset-2">
-            Projects
-          </h4>
-        </div>
-        <div className="grid lg:grid-cols-1 md:grid-cols-1 sm:gap-y-8 md:gap-y-8 deck">
-          <div className="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer m-auto">
-            <a
-              title="Glidewell Direct Website"
-              href="https://www.glidewelldirect.com/"
-              className="w-full block h-full"
-              rel="norefferer nofollow"
-            >
-              <StaticImage
-                alt="Glidewell Direct Website"
-                src="../images/glidewell-direct-capture-t.png"
-                className="max-h-40 w-full object-cover"
-                placeholder="tracedSVG"
-              />
-              <div className="bg-white dark:bg-gray-800 w-full p-4">
-                <p className="text-red-500 text-md font-bold">
-                  GlidewellDirect.com
-                </p>
-                <p>
-                  GlidewellDirect.com is an E-Commerce site built on the Shopify
-                  platform. Glidewell Direct is a B2B website that sells
-                  directly to dentists. The products range from dental implants
-                  to continued education courses for dentists.
-                </p>
-                <p>
-                  <p className="text-red-500">Visit Site</p>
-                </p>
-                <div className="flex items-center mt-4">
-                  <div className="flex flex-row justify-between text-sm">
-                    <p className="font-bold">
-                      Technologies: HTML, Sass, JavaScript, jQuery, Shopify,
-                      Liquid, Bootstrap 3, React.js
-                    </p>
+          <div className="grid lg:grid-cols-1 md:grid-cols-1 sm:gap-y-8 md:gap-y-8 deck">
+            <div className="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer m-auto">
+              <a
+                title="Glidewell Direct Website"
+                href="https://www.glidewelldirect.com/"
+                className="w-full block h-full"
+                rel="norefferer nofollow"
+              >
+                <StaticImage
+                  alt="Glidewell Direct Website"
+                  src="../images/glidewell-direct-capture-t.png"
+                  className="max-h-40 w-full object-cover"
+                  placeholder="tracedSVG"
+                />
+                <div className="bg-white dark:bg-gray-800 w-full p-4">
+                  <p className="text-red-500 text-md font-bold">
+                    GlidewellDirect.com
+                  </p>
+                  <p>
+                    GlidewellDirect.com is an E-Commerce site built on the
+                    Shopify platform. Glidewell Direct is a B2B website that
+                    sells directly to dentists. The products range from dental
+                    implants to continued education courses for dentists.
+                  </p>
+                  <p>
+                    <p className="text-red-500">Visit Site</p>
+                  </p>
+                  <div className="flex items-center mt-4">
+                    <div className="flex flex-row justify-between text-sm">
+                      <p className="font-bold">
+                        Technologies: HTML, Sass, JavaScript, jQuery, Shopify,
+                        Bootstrap 3, React.js
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
         </div>
       </div>

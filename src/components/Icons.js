@@ -38,16 +38,16 @@ const Icons = () => {
           <AiOutlineMail size={size} />
         </a>
       </div>
-      <div className="react-icons">
+      {/* <div className="react-icons">
         <a
-          href="https://drive.google.com/file/d/1am_iWizbrGmdD4qUPIctnypgRH4m4eNA/view?usp=sharing"
+          href=""
           title="Resume"
           rel="noreferrer"
           target="_blank"
         >
           <BsFileTextFill size={size} />
         </a>
-      </div>
+      </div> */}
     </div>
   )
 }
